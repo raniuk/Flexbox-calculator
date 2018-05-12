@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	width: 100%;
+	background-color: #fafafa;
+	font-family: Arial, Sanserif;
+	font-size: 16px;
+}
+h1{
+	color: green;
+	text-shadow: 1px 1px #333;
+	text-align: center;
+}
+input{
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: right;
+  font-size: 4vh;
+  border: 1px solid #999;
+  margin: 3px;
+}
+button{
+  background-color: #e53935;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  width: 99.5%;
+  border-radius: 3px;
+  box-shadow: 1px 7px #d32f2f;
+}
+.contenedor {
+	width: 96%;
+  margin: auto;
+}
+
+.filas {
+  display: flex;
+  /*align-items: flex-start;*/
+  font-size: 4vh;
+  color: white;
+  text-align: center;
+}
+.filas > div{
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+}
+.filas > .numero {
+  background: yellowgreen;  
+}
+.filas > .simbolo {
+  background: blue;
+}
+.filas > .igual {
+  background: orange;
+}
